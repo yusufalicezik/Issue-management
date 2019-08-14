@@ -8,9 +8,11 @@ import com.yusufalicezik.BackEndProje.util.TPage;
 import org.modelmapper.ModelMapper;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
+import org.springframework.stereotype.Service;
 
 import java.util.Arrays;
 
+@Service
 public class IssueServiceImpl implements IssueService {
 
 

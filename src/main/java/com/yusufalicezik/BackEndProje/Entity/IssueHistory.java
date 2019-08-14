@@ -12,7 +12,7 @@ import javax.persistence.*;
 @NoArgsConstructor // boş constructor yaratır.
 @AllArgsConstructor //dolu olanı
 @ToString //nesnenin toStringi oluşur
-@EqualsAndHashCode //equals methodu
+@EqualsAndHashCode(callSuper = false) //equals methodu
 public class IssueHistory extends BaseEntity{
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
